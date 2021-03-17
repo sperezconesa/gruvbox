@@ -573,7 +573,7 @@ else
   call s:HL('Special', s:orange, s:bg1, s:italicize_strings)
 endif
 
-call s:HL('Comment', s:gray, s:none, s:italicize_comments)
+call s:HL('Comment', s:fg2, s:none, s:italicize_comments)
 call s:HL('Todo', s:vim_fg, s:vim_bg, s:bold . s:italic)
 call s:HL('Error', s:red, s:vim_bg, s:bold . s:inverse)
 
